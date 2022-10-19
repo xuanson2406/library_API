@@ -5,7 +5,9 @@
 replicaCount: 1
 database:
   volume:
-    storageClassName: 
+    storageClassName: gold
+  rootPassword: viveksingh
+  name: mysql-lib 
 
 image:
   repository: nginx

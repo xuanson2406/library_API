@@ -4,7 +4,7 @@ metadata:
   name: mysql-pv-claim
   namespace: database 
 spec:
-  storageClassName: {{.values.database.volume.storageClassName}}
+  storageClassName: {{.Values.database.volume.storageClassName}}
   accessModes:
     - ReadWriteOnce
   resources:
