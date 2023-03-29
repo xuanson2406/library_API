@@ -3,7 +3,17 @@ entries:
   helm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-28T02:54:10.002734361-07:00"
+    created: "2023-03-28T21:11:42.053018451-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 50339d1347fad7f683f700715ffdb1fa8def80267e07e1c6604119f3df6689fe
+    name: Library
+    type: application
+    urls:
+    - helm-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-28T21:11:42.052400025-07:00"
     description: A Helm chart for Kubernetes
     digest: 053f39c3dc6507ea7cf47c5ee384ed227f7b9f4cf803383ca71d0127a767dc79
     name: helm
@@ -11,4 +21,4 @@ entries:
     urls:
     - helm-0.1.0.tgz
     version: 0.1.0
-generated: "2023-03-28T02:54:09.999334316-07:00"
+generated: "2023-03-28T21:11:42.050141981-07:00"
